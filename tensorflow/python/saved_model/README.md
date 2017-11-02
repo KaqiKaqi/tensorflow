@@ -17,6 +17,10 @@ The following is a summary of the features in SavedModel:
 * Multiple graphs sharing a single set of variables and assets can be added to a
   single SavedModel. Each graph is associated with a specific set of tags to
   allow identification during a load or restore operation.
+  
+  共享同一套变量和 assets 的多个图可以被加到 a single SavedModel. 
+  
+  每个图
 * Support for `SignatureDefs`
     * Graphs that are used for inference tasks typically have a set of inputs
       and outputs. This is called a `Signature`.
